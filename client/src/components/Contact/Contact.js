@@ -22,7 +22,6 @@ class Contact extends Component {
 
 	handleSubmit(event) {
 		event.preventDefault();
-		console.log(this.state);
 		let data = this.state;
 
 		Axios.post('/mail/send', data)
