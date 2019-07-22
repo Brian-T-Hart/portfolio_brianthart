@@ -1,0 +1,277 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+body, html {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+  height: 100vh;
+  line-height: $line-height-base;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.about-image {
+  border: 10px solid silver;
+  border-radius: 110px;
+  display: block;
+  height: 220px;
+  margin: auto;
+}
+
+.bar-container {
+  background-color: $lightGray;
+
+  .bar {
+    background-color: #428bca;
+  }
+
+  .bar-title {
+    color: #fff;
+    background-color: #5bc0de;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+  }
+
+  .bar-width {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 80px;
+  }
+}
+
+.bg-gray {
+  background-color: #262F38;
+}
+
+.bg-darkgray {
+  background-color: $darkGray;
+}
+
+.bg-lightgray {
+  background-color: $lightGray;
+}
+
+.content-container {
+  left: 100px;
+  position: relative;
+  width: calc(100vw - 100px);
+
+  @media (max-width: 575.98px) {
+    left: 0;
+    width: 100vw;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.mh-60 {
+  min-height: 60vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 30px;
+
+  .section-title {
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.text-orange {
+  color: $orange;
+}
+
+#back-to-top {
+  bottom: 0;
+  color: $blue;
+  font-size: 11px;
+  position: absolute;
+}
+
+#blog-page {
+  margin: auto;
+  max-width: 45rem;
+  padding: 2rem;
+
+  header {
+    border-bottom: 2px solid $lightGray;
+
+  }
+
+  .blog-title {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  min-height: 200px;
+  position: absolute;
+  width: calc(100vw - 100px);
+
+  .footer-icon {
+    align-items: center;
+    background: #262F38;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+
+    &:hover {
+      background-color: #3490dc;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+}
+
+#section-blog {
+  img {
+    border-radius: 1rem;
+    height: 187px;
+    width: 275px;
+  }
+}
+
+#section-contact {
+  #contact-form {
+    input, textarea {
+      max-width: 500px;
+      width: 90%;
+    }
+  
+    textarea {
+      min-height: 150px;
+    }
+  }
+
+  @media (max-height: 695.98px) {
+    min-height: 700px;
+  }
+}
+
+#section-home {
+  background-color: $darkGray;
+  color: #fff;
+}
+
+#section-navbar {
+  height: 100vh;
+  padding: 15% 0;
+  position: fixed;
+  top: 0;
+  width: 100px;
+
+  h6 {
+    font-size: 12px;
+  }
+
+  @media (max-width: 575.98px) {
+    display: none;
+  }
+
+  @media (max-height: 795.98px) {
+    padding: 10% 0;
+  }
+
+  @media (max-height: 600px) {
+    padding: 5% 0;
+  }
+}
+
+#section-projects {
+
+  #gallery {
+
+    .project-container {
+      position: relative;
+
+      &:hover {
+        .card {
+          opacity: 0;
+        }
+
+        .project-text {
+          opacity: 1;
+          
+          padding-top: 20%;
+
+
+          .project-links {
+            bottom: 25%;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .card {
+        border-radius: 0;
+        border-width: 0;
+        height: 250px;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        width: 350px;
+      }
+
+      .project-text {
+        font-family: 'Raleway-bold', sans-serif;
+        font-size: 24px;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+        z-index: 2;
+
+        .project-links {
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          transition: all 0.3s ease-in-out;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// temporary construction sign
+#under-construction {
+  background: $yellow;
+  color: $darkGray;
+  padding: 5px 100px;
+  position: absolute;
+  right: -50px;
+  top: 80px;
+  transform: rotate(35deg);
+}
