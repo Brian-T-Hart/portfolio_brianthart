@@ -4,7 +4,7 @@ const projectDetails = [
 		subtitle: 'Laravel, PHP, React, MySQL',
 		description: 'A web application for tutors to record student information, schedule lessons, record payments, track income and quickly communicate with clients. It was built within the Laravel framework. The backend is written in PHP and connects to a MySQL database. The frontend is written in React. Other tools include Bootstrap, Sass, Font-Awesome, Mailgun, Git, and Heroku.',
 		image_link: 'https://res.cloudinary.com/dfonttj4w/image/upload/c_scale,h_250,q_100,w_350/v1555794887/portfolio/TutorApp4.png',
-		web_link: 'https://www.tutorapp.app',
+		web_link: 'https://my-tutor-app.herokuapp.com/',
 		github_link: 'https://github.com/Brian-T-Hart/tutor-tool',
 		tags: ['laravel', 'mysql', 'php', 'react']
 	},
