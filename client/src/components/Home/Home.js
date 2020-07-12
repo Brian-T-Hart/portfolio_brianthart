@@ -5,7 +5,7 @@ class Home extends Component {
 		super(props);
 		this.state = {
 			portfolioName: 'Brian Hart',
-			portfolioDescription: 'Full Stack Web Developer'
+			portfolioDescription: 'Freelance Web Developer'
 		}
 		this.handleClick = this.handleClick.bind(this);
 	}
