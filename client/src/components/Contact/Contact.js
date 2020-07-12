@@ -55,7 +55,7 @@ class Contact extends Component {
 
 					<h1 className="section-title text-white mb-2 pt-3">Contact</h1>
 
-					<h5 className="section-description text-center text-primary">Have a question or comment?</h5>
+					<h5 className="section-description text-center text-primary">Have a question or want to connect about a project?</h5>
 
 					<form onSubmit={this.handleSubmit} className="text-center" id="contact-form">
 						<div className="form-group mb-1">
