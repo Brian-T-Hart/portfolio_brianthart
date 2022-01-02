@@ -22,7 +22,7 @@ const Blog = () => (
 
 			<Link to="/blog/3">
 				<div className="d-flex flex-column mb-3">
-					<img alt="Web design graphic" className="blog-section-image" src="http://ozarate.net/imagenes_sitio/titulo_img.png"></img>
+					<img alt="Web design graphic" className="blog-section-image" src="/images/web-dev.png"></img>
 					<h4 className="m-2 text-center">Full Stack Jack</h4>
 				</div>
 			</Link>
