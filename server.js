@@ -12,6 +12,7 @@ var PORT = process.env.PORT || 3001;
 // routes
 var index = require("./controllers/index");
 var mail = require("./controllers/mail");
+var contact = require("./controllers/contact");
 
 
 // Set up the Express app to handle data parsing
@@ -25,6 +26,7 @@ app.use(express.static("client/build"));
 
 app.use("/", index);
 app.use("/mail", mail);
+app.use("/contact", contact);
 
 app.listen(PORT, function () {
 	console.log("App is listening on PORT " + PORT);

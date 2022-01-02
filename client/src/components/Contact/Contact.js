@@ -24,8 +24,9 @@ class Contact extends Component {
 		event.preventDefault();
 		let data = this.state;
 
-		Axios.post('/mail/send', data)
+		Axios.post('/contact/send', data)
 			.then(response => {
+				console.log(response.data);
 				if (response.data.message === 'success') {
 					this.setState({
 						name: '',
