@@ -40,7 +40,7 @@ const projectDetails = [
 		subtitle: 'Laravel, PHP, MySQL',
 		description: 'GemmaList is a todo app I built so that multiple lists can be viewed on the screen at one time. It was built using PHP, MySQL, and Blade within the Laravel framework. It utilizes Git and Gitub for source control and is hosted on Heroku.',
 		image_link: 'https://res.cloudinary.com/dfonttj4w/image/upload/c_scale,h_250,q_100,w_350/v1555796136/portfolio/GemmaList2.png',
-		web_link: 'https://gemmalist.herokuapp.com/',
+		web_link: 'https://www.gemmalist.com/',
 		github_link: 'https://github.com/Brian-T-Hart/gemma-list',
 		tags: ['laravel', 'php', 'mysql', 'blade']
 	},
