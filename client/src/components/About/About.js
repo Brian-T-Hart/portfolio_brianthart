@@ -8,7 +8,7 @@ const About = () => (
 		<div className="row d-flex justify-content-center align-items-center">
 			<div className="col-md-6 col-xs-12 p-4">
 				<img alt="Brian Hart" className="about-image" src="https://res.cloudinary.com/dfonttj4w/image/upload/c_scale,h_400,q_100/v1555738247/b7u4tntezpsyvk8rke3w.png" />
-				<h4 className="pt-3 text-center">Freelance Web Developer</h4>
+				<h4 className="pt-3 text-center">Web Developer</h4>
 				<p className="text-justify">I am a web developer who loves to solve challenges and create great user experiences. HTML, CSS, JavaScript, React, Node, PHP, Laravel, and Wordpress are a few of my favorite tools to work with. When I am not coding, I am spending time with my family, playing roller hockey, or learning new skills.</p>
 			</div>
 
