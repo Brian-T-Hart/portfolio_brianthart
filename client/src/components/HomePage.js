@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import About from './About/About';
-import Blog from './Blog/Blog';
+// import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Projects from './Projects/Projects';
+import Services from './Services/Services';
 
 class HomePage extends Component {
     render() {
@@ -14,7 +15,8 @@ class HomePage extends Component {
 				<div className="content-container">
 					<Home />
 					<About />
-					<Blog />
+					{/* <Blog /> */}
+					<Services />
 					<Projects />
 					<Contact />
 				</div>
