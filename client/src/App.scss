@@ -269,24 +269,26 @@ i {
 }
 
 #section-services {
-  // #services>div {
-  //   max-width: 800px;
-  // }
 
   .service {
     animation: gradient 15s ease infinite;
+    // background: linear-gradient(-45deg, $darkGray, $gray, $blue, $orange);
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    // background: $gray;
     border-radius: 5px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 140px;
-    margin: 1%;
-    padding: 20px;
-    width: 30%;
+    height: 150px;
+    margin: 5px;
+    width: 350px;
+
+    @media (max-width: 798.98px) {
+      height: 100px;
+      margin: 10px 20px;
+      max-width: 100%;
+    }
   }
 
 }
