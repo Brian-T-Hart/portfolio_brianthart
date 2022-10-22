@@ -184,6 +184,11 @@ i {
 #section-home {
   background-color: $darkGray;
   color: #fff;
+
+  #portfolio-name {
+    animation: text-expand 3s ease-in-out;
+    letter-spacing: 0;
+  }
 }
 
 #section-navbar {
@@ -313,5 +318,19 @@ i {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes text-expand {
+  0% {
+    letter-spacing: 0;
+  }
+
+  50% {
+    letter-spacing: 1em;
+  }
+
+  100% {
+    letter-spacing: 0;
   }
 }
