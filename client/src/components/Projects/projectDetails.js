@@ -26,15 +26,15 @@ const projectDetails = [
 		github_link: 'https://github.com/Brian-T-Hart/class-worx',
 		tags: ['cloudinary', 'express', 'handlebars', 'mysql', 'node']
 	},
-	{
-		title: 'Goal Post',
-		subtitle: 'MySQL, Express, React, Node',
-		description: 'Goal-Post is a React-based application that assists sales reps from small to mid-sized companies. It will allow companies to create a digital hub or dashboard for their sales reps, allowing them to efficiently schedule meetings and deliveries, and to track inventory and sales. Goal-Post was a group effort, the third and final project of the UCI Coding Bootcamp. I worked on a team of five and participated in many aspects, such as, building react components, incorporating Chart.js, designing the database and setting up controllers.',
-		image_link: 'https://res.cloudinary.com/dfonttj4w/image/upload/c_scale,h_250,q_100,w_350/v1556065536/portfolio/GoalPost.png',
-		web_link: 'https://goal-post-crm.herokuapp.com/',
-		github_link: 'https://github.com/Brian-T-Hart/bisque3',
-		tags: [ 'express', 'mysql', 'node', 'react']
-	},
+	// {
+	// 	title: 'Goal Post',
+	// 	subtitle: 'MySQL, Express, React, Node',
+	// 	description: 'Goal-Post is a React-based application that assists sales reps from small to mid-sized companies. It will allow companies to create a digital hub or dashboard for their sales reps, allowing them to efficiently schedule meetings and deliveries, and to track inventory and sales. Goal-Post was a group effort, the third and final project of the UCI Coding Bootcamp. I worked on a team of five and participated in many aspects, such as, building react components, incorporating Chart.js, designing the database and setting up controllers.',
+	// 	image_link: 'https://res.cloudinary.com/dfonttj4w/image/upload/c_scale,h_250,q_100,w_350/v1556065536/portfolio/GoalPost.png',
+	// 	web_link: 'https://goal-post-crm.herokuapp.com/',
+	// 	github_link: 'https://github.com/Brian-T-Hart/bisque3',
+	// 	tags: [ 'express', 'mysql', 'node', 'react']
+	// },
 	{
 		title: 'GemmaList',
 		subtitle: 'Laravel, PHP, MySQL',
